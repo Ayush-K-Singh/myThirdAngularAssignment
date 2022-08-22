@@ -1,0 +1,18 @@
+table {
+    width: 100%;
+  }
+  
+
+h1{
+  text-align: center;
+}
+
+.btn1{
+  background-color: green;
+  color: white;
+}
+
+.btn2{
+  background-color: blue;
+  color: white;
+}

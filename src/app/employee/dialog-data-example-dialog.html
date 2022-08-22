@@ -1,0 +1,41 @@
+<h1 mat-dialog-title>View Employee Details</h1>
+<div mat-dialog-content>
+  <div *ngIf="data.eemployee === 'Ayush'">
+    <label for="">Name:</label>
+    {{employee[0].fName}}
+    {{employee[0].mName}}
+    {{employee[0].lName}}
+    <br>
+    <label for="">Gender:</label>
+    {{employee[0].gender}}
+    <br>
+    <label for="">Address:</label>
+    {{employee[0].address2}}
+
+  </div>
+
+  <div *ngIf="data.eemployee === 'Amit'">
+    {{employee[1].fName}}
+    {{employee[1].mName}}
+    {{employee[1].lName}}
+  </div>
+
+  <div *ngIf="data.eemployee === 'Aaryan'">
+    {{employee[2].fName}}
+    {{employee[2].mName}}
+    {{employee[2].lName}}
+  </div>
+
+  <div *ngIf="data.eemployee === 'Ajay'">
+    {{employee[3].fName}}
+    {{employee[3].mName}}
+    {{employee[3].lName}}
+  </div>
+
+  <div *ngIf="data.eemployee === 'Deepak'">
+    {{employee[4].fName}}
+    {{employee[4].mName}}
+    {{employee[4].lName}}
+  </div>
+  
+</div>
